@@ -63,7 +63,7 @@ yolo_names = yolo_model.names
 cap = cv2.VideoCapture(0)
 
 # Gemini API setup
-GEMINI_API_KEY = "AIzaSyA1gV407HZBdA_KeSZw0MZYiOcplm9vwGM"
+GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"  # Replace with your Gemini API key
 
 def ask_gemini(question):
     try:
